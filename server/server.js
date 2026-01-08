@@ -86,7 +86,6 @@ function initDatabase() {
     });
   });
 }
-
 // ========== ROUTES PIECES ==========
 
 // Récupérer toutes les pièces
