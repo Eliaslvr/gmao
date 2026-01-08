@@ -1,0 +1,60 @@
+/* Reset simple */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Police globale */
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+  }
+  
+  /* Liens */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Boutons par défaut */
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Champs formulaire */
+  input, select, textarea {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #1976d2;
+  }
+  
+  /* Table globale */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #eaeaea;
+  }
+  

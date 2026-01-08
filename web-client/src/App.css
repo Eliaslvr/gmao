@@ -1,0 +1,208 @@
+/* ===== LAYOUT ===== */
+.App {
+    max-width: 1300px;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  /* ===== HEADER ===== */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1976d2;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .header h1 {
+    font-size: 22px;
+  }
+  
+  .user-selector select {
+    margin-left: 10px;
+  }
+  
+  /* ===== ALERTES ===== */
+  .alertes-banner {
+    background: #ffcc00;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  /* ===== TABS ===== */
+  .tabs {
+    margin: 15px 0;
+  }
+  
+  .tabs button {
+    padding: 10px 15px;
+    margin-right: 5px;
+    background: #ddd;
+  }
+  
+  .tabs .active {
+    background: #1976d2;
+    color: white;
+  }
+  
+  /* ===== TOOLBAR ===== */
+  .toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .search-input {
+    width: 300px;
+  }
+  
+  /* ===== PIECES ===== */
+  .pieces-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 15px;
+  }
+  
+  .piece-card {
+    background: white;
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .alert-card {
+    border-left: 5px solid red;
+  }
+  
+  .piece-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .reference {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .stock-ok {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .stock-alert {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* ===== ACTIONS ===== */
+  .piece-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* ===== BOUTONS ===== */
+  .btn-primary {
+    background: #1976d2;
+    color: white;
+    padding: 8px 12px;
+  }
+  
+  .btn-secondary {
+    background: #aaa;
+    color: white;
+    padding: 8px 12px;
+  }
+  
+  .btn-success {
+    background: #4caf50;
+    color: white;
+    padding: 6px 10px;
+  }
+  
+  .btn-warning {
+    background: #ff9800;
+    color: white;
+    padding: 6px 10px;
+  }
+  
+  .btn-danger {
+    background: #f44336;
+    color: white;
+    padding: 6px 10px;
+  }
+  
+  /* ===== BADGES ===== */
+  .badge {
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+  }
+  
+  .badge-success {
+    background: #4caf50;
+  }
+  
+  .badge-warning {
+    background: #ff9800;
+  }
+  
+  /* ===== TABLE ===== */
+  .mouvements-list {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  
+  .table tr:hover {
+    background: #f0f0f0;
+  }
+  
+  /* ===== MODAL ===== */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 6px;
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  /* ===== DIVERS ===== */
+  .no-alert {
+    color: green;
+    font-weight: bold;
+  }
+  
